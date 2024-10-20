@@ -1,0 +1,79 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+.header input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.header .menu-icon {
+    font-size: 24px;
+}
+.content {
+    display: flex;
+    padding: 40px;
+}
+.content .text {
+    flex: 1;
+    padding-right: 20px;
+}
+.content .image {
+    flex: 1;
+}
+.content .image img {
+    width: 100%;
+    height: auto;
+}
+.services {
+    text-align: center;
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+.services h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.services p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 40px;
+}
+.services .service-items {
+    display: flex;
+    justify-content: space-around;
+}
+.services .service-item {
+    text-align: center;
+    width: 20%;
+}
+.services .service-item .circle {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.services .service-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.services .service-item a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}

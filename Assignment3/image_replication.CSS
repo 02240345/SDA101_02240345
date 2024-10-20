@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    position: relative;
+    border-bottom: 1px solid rgb(205, 200, 200)
+}
+
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    padding: 8px;
+    border-radius: 0;
+    border: 1px solid rgb(205, 200, 200);
+    width: 150px;
+    height: 25px;
+}
+
+.search-button {
+    background-color: #fff;
+    border: none;
+    margin-left: -35px;
+    cursor: pointer;
+    padding: 0;
+    position: relative;
+    left: 20px;
+}
+
+.search-button i {
+    font-size: 10px;
+    color: rgb(205, 200, 200);
+}
+
+
+.icon-button {
+    background-color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    
+  
+}
+
+.icon-button i {
+    font-size: 20px;
+    color: black;
+
+}
+
+.container {
+    display: flex;
+}
+
+/* General container style */
+.container {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+    box-sizing: border-box;
+}
+
+/* Left content where text will be positioned */
+.left-content {
+    flex: 1; /* Takes up half the page */
+    position: relative; /* Sets the parent for absolute positioning */
+    top: 630px;
+    left: 80px;
+    font-weight: bolder;
+}
+
+/* Right image styling */
+.right-content {
+    flex: 1; /* Takes up half the page */
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    
+}
+
+.right-image {
+    max-width: 100%; /* Ensures the image doesn't exceed the container width */
+    height: auto; /* Keeps the image's aspect ratio */
+}
+
+.below-content {
+    
+    margin-top: 20px; /* Adds spacing between the container and the heading */
+    font-size: 50px; /* Sets font size for the h2 */
+    font-weight: bold; /* Makes the h2 bold */
+    text-align: justify; 
+    transform: translateX(80px);
+}
+
+.below-header {
+
+    margin-top: 50px;
+    font-size: 16px;
+    transform: translateX(80px);
+
+}
+
+.highlight {
+    color: rgb(99, 201, 233);
+}
+
+.circle-container {
+    position: absolute;
+    top: 990px;
+    left: 50%; 
+    transform: translateX(-50%); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.circle-item {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin: 0 23px; 
+}
+
+
+.circle {
+    width: 70px; 
+    height: 70px; 
+    background-color: transparent; 
+    color: black; 
+    border: 3px solid black;
+    border-radius: 50%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: 24px; 
+    font-weight: bold; 
+    text-align: center; 
+    font-size: 16px;
+    margin: 130px;
+    
+}
+
+.circle-label {
+    margin-top: -110px; 
+    color: black; 
+    font-size: 20px; 
+    font-weight: bold;
+    text-align: row;
+}
+
+.underline {
+    text-decoration: underline;
+    border-bottom: 3px black;
+    font-size: 12px;
+}
+
+
+
+/* Container with a custom background color */
+.custom-background {
+    position: relative; /* Relative positioning to allow absolute positioning of inner elements */
+    background-color: rgb(33, 39, 41); /* Set background color for the element */
+    width: 100%; /* Full width of the container */
+    height: 800px; /* Adjust height of the container */
+    display: flex; /* Use flexbox for easy layout control */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+
+}
+
+/* Styling for the image inside the custom background */
+.overlay-image {
+    position: absolute; /* Allow image to overlap with text */
+    top: 50px; /* Adjust vertical position */
+    left: 400px; /* Adjust horizontal position */
+    width: 250px; /* Set the image size */
+    height: auto; /* Keep image proportions */
+}
+
+/* Styling for the text inside the custom background */
+.overlay-text {
+    position: absolute; /* Absolute positioning for flexible placement */
+    top: 150px; /* Adjust vertical position */
+    left: 180px; /* Adjust horizontal position */
+    color: white; /* White text to contrast with background */
+    font-size: 46px; /* Text size */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add shadow to make text stand out */
+    font-weight: light;
+}
+
+.overlay-image1 {
+    position: absolute; /* Allow image to overlap with text */
+    bottom: 207px; /* Adjust vertical position */
+    left: 80px; /* Adjust horizontal position */
+    width: 200px; /* Set the image size */
+    height: auto; /* Keep image proportions */
+}
+
+.overlay-image2 {
+    position: absolute; /* Allow image to overlap with text */
+    bottom: 216px; /* Adjust vertical position */
+    right: 170px; /* Adjust horizontal position */
+    width: 500px; /* Set the image size */
+    height: auto; /* Keep image proportions */
+}
+
+.overlay-text2 {
+    position: absolute; /* Absolute positioning for flexible placement */
+    bottom: 110px; /* Adjust vertical position */
+    left: 195px; /* Adjust horizontal position */
+    color: rgba(255, 255, 255, 0.63); /* White text to contrast with background */
+    font-size: 16px; /* Text size */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add shadow to make text stand out */
+    font: normal;
+}
+.overlay-text3 {
+    position: absolute; /* Absolute positioning for flexible placement */
+    top: 80px; /* Adjust vertical position */
+    left: 1065px; /* Adjust horizontal position */
+    color: rgba(255, 255, 255, 0.63); /* White text to contrast with background */
+    font-size: 20px; /* Text size */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add shadow to make text stand out */
+    font-weight: light;
+}
+
+.overlay-text1 {
+    position: absolute; /* Absolute positioning for flexible placement */
+    top: 225px; /* Adjust vertical position */
+    left: 557px; /* Adjust horizontal position */
+    color: rgba(255, 255, 255, 0.63); /* White text to contrast with background */
+    font-size: 20px; /* Text size */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add shadow to make text stand out */
+    font-weight: light;
+}
+
+.overlay-text4 {
+    position: relative;
+    top: 500px; /* Adjust vertical position */
+    right: 100px; /* Adjust horizontal position */
+    color: rgba(255, 255, 255, 0.63); /* White text to contrast with background */
+    font-size: 16px; /* Text size */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add shadow to make text stand out */
+    font-weight: normal;
+}
+
+.overlay-text5 {
+    position: relative;
+    top: 226px; /* Adjust vertical position */
+    right: 243px; /* Adjust horizontal position */
+    color: white; /* White text to contrast with background */
+    font-size: 16px; /* Text size */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add shadow to make text stand out */
+    font-weight: normal;
+}
+
+.container2 {
+    max-width: 100%;
+    display: flex; /* Use flexbox to arrange children in a row */
+    height: 100vh;
+}
+.right-content1 {
+    display: relative;
+    justify-content: center; /* Center the image horizontally */
+    align-items: bottom; /* Center the image vertically */
+}
+
+/* Image styling for the first image */
+.right-image1 {
+    height: 500px; /* Keeps the image's aspect ratio */
+    margin-top: 143px;
+    width: 466px;
+}
+
+.container3 {
+    display: flex; /* Use flexbox to arrange children in a row */
+    height: 100vh; /* Full height of the viewport */
+}
+
+/* Left content styling */
+.left-content1 {
+    flex: 1;
+    white-space: nowrap;
+    flex-direction: row; 
+    position: relative;
+    color: black;
+    font-size: 36px;
+    text-shadow: none;
+    right: 900px;
+    bottom: 450px;
+
+}
+
+.text-placed {
+    flex-direction: row; 
+    flex: 1;
+    white-space: nowrap;
+    position: absolute;
+    color: black;
+    right: 905px;
+    text-shadow: none;
+    bottom: 1080px;
+}
+
+.text-placed1 {
+    flex-direction: row; 
+    flex: 1;
+    white-space: nowrap;
+    position: absolute;
+    color: black;
+    right: 910px;
+    text-shadow: none;
+    bottom: 950px;
+}
