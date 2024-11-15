@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Card Component</title>
+    
+    <script src="card_component.js" defer></script>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: white;
+        }
+        custom-card {
+            --card-background: #32dfc2;
+            --card-border-radius: 8px;
+            --card-padding: 16px;
+            --header-color: black;
+            --footer-color: black;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <custom-card>
+        
+        <div slot="header">Card Header</div>
+        <div slot="content">This is the main content area of the card. You can add text, images, or other HTML elements here.</div>
+        <div slot="footer">Card Footer</div>
+    </custom-card>
+
+</body>
+</html>
